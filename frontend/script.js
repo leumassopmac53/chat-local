@@ -1,4 +1,6 @@
-const WS = new WebSocket(`ws://${location.host}`);
+const protocolo = location.protocol === "https:" ? "wss:" : "ws:";
+
+const WS = new WebSocket(`${protocolo}//${location.host}`);
 
 const mensagem = document.querySelector("#msm");
 
