@@ -1,0 +1,16 @@
+{
+  "name": "chat-local-main",
+  "version": "1.0.0",
+  "description": "Um chat",
+  "license": "UNLICENSED",
+  "author": "leumassopmac53",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}
